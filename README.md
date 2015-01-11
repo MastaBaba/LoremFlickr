@@ -5,6 +5,8 @@ Put the files in the location of your choice. Enter your Flickr API and server d
 Inside the includes folder, add dan-coulter's phpFlickr.
 
 You might want to add a cronjob to clean the cache of old files.
+
+Depending on where you've put your files, you might need to update the .htaccess file to make sure redirects point to image.php in the right folder.
 ## How to use
 Point your browser to, depending on where you put the files, http://your-website.com/g/320/240/paris,girl/all
 
