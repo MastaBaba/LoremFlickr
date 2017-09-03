@@ -126,6 +126,8 @@ imagejpeg($image, $selectedImage["cachedresized"]);
 
 //Output file
 $fp = fopen($selectedImage["cachedresized"], 'rb');
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');  
 header("Content-Type: image/jpg");
 header("Content-Length: " . filesize($selectedImage["cachedresized"]));
 fpassthru($fp);
