@@ -1,5 +1,8 @@
 # LoremFlickr
 LoremFlickr provides placeholder images for every case, web or print, on almost any subject, in any size. Visit http://loremflickr.com to see this in action.
+
+Find completely updated code at https://github.com/MastaBaba/LoremFlickr-2.
+
 ## How to install
 Put the files in the location of your choice. Enter your Flickr API and server details in initialize.php. Perhaps adjust the cache locations and make sure those folders are server-writable. 
 
